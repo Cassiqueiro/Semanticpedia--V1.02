@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Elemento article</title>
+	</head>
+	<body>
+		<h1><code>Elemento </code> article</h1>
+		<ul>
+			<li>Início</li>
+			<li>Com <code>&lt;h1></code></li>
+			<li>Com <code>aria-label</code>
+			<li>Com <code>&lt;h1></code> referência por <code>aria-labelledby</code></li>
+		</ul>
+		<article>
+		Lorem ipsum...
+		</article>
+		<hr>
+
+		<article>
+		<h1>Era uma vez</h1>
+		Lorem ipsum...
+		</article>
+		<hr>
+
+		<article aria-label="Era uma vez">
+		Lorem ipsum...
+		</article>
+		<hr>
+
+		<article aria-labelledby="article-title">
+		<h1 id="article-title">Era uma vez</h1>
+		Lorem ipsum...
+		</article>
+
+		<h2>Código</h2>
+		<pre><code>&lt;article>
+Lorem ipsum...
+&lt;/article></code></pre>
+<hr>
+
+<pre><code>&lt;article>
+&lt;h1>Era uma vez&lt;/h1>
+Lorem ipsum...
+&lt;/article></code></pre>
+<hr>
+
+<pre><code>&lt;article aria-label="Era uma vez">
+Lorem ipsum...
+&lt;/article></code></pre>
+<hr>
+
+<pre><code>&lt;article aria-labelledby="article-title">
+&lt;h1 id="article-title">Era uma vez&lt;/h1>
+Lorem ipsum...
+&lt;/article></code></pre>
+
+		<h2>Fonte de Referência</h2>
+		<p><a href="http://www.w3.org/TR/html5/sections.html#the-article-element">Elemento article no HTML5</a></p>
+	</body>
+</html>
