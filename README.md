@@ -1,2 +1,4 @@
-# Semanticpedia  V1.02
- Index com links acessíveis, e páginas em revisão.
+## INFORMAÇÕES SOBRE O SEMANTICPEDIA##
+
+1. Para acessar o arquivo, acessar o seguinte caminho
+Semanticpedia-V1.2.0\dados\index.html

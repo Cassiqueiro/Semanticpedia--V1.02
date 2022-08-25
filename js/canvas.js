@@ -4,4 +4,4 @@ var imageObj = new Image();
 imageObj.onload = function() {
     context.drawImage(imageObj, 0, 0);
 };
-imageObj.src = '../images/shalott.jpg';
+imageObj.src = '../assets/shalott.jpg';
