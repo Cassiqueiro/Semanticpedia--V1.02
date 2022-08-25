@@ -5,111 +5,69 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="description" content="Repositório de Semânticas"/>
         <meta name="author" content="Equipe de Acessibilidade Itaú"/>
-        <title>Leitor de tela com elemento A no Href</title>
+        <title>A no Href</title>
         <link rel="icon" type="favicon" href="../assets/favicon.png"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet"/>
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container px-4 px-lg-5">
-              <a class="navbar-brand">Acessibilidade Itaú</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                      <li class="nav-item"><a href="./ferramentas-apoio.html" class="nav-link" target="_blank">Ferramentas de apoio</a></li>
-                      <li class="nav-item"><a href="https://developer.android.com/guide/topics/ui/accessibility" class="nav-link" target="_blank">DEV Android</a></li>
-                      <li class="nav-item"><a href="https://developer.apple.com/documentation/accessibility" class="nav-link" target="_blank">DEV IOS</a></li>
-                      <li class="nav-item"><a href="https://www.w3.org/WAI/standards-guidelines/aria/" class="nav-link" target="_blank">DEV W3C</a></li>
-                      <li class="nav-item"><a href="https://github.com/Cassiqueiro/SemanticsHTML" class="nav-link" target="_blank">Repositório Git</a></li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
         <header class="bg-dark py-5">
-          <div class="container px-4 px-lg-5 my-5">
-              <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">Leitor de tela com elemento A no Href</h1>
-                <img src="../assets/logo-acessibilidade.png" title="Logo Acessibilidade" width:="50" height="120">
-                <p class="lead fw-normal text-white-50 mb-0">Material de apoio para desenvolvimento de jornadas</p>
-              </div>
-          </div>
-        </header>
+        	<div class="container px-4 px-lg-5 my-5">
+            	<div class="text-center text-white">
+            		<h1 class="display-4 fw-bolder">Leitor de tela com elemento A no Href</h1>
+						<a href="file:///C:/Users/photh/Documents/GitHub/Semanticpedia-V1.2.0/index.html">
+						<img src="../assets/logo-acessibilidade.png" title="Logo Acessibilidade" width:="50" height="120">
+						</a>
+						<p class="lead fw-normal text-white-50 mb-0">Material de apoio para desenvolvimento de jornadas</p>
+			  	</div>
+			</div>
+		</header>
 			<section class="py-5">
 				<div class="container px-4 px-lg-5 mt-5">
-					<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-                      <div class="col mb-5">
-					    <div class="card h-100">
-						  <div class="card-body p-4">
-							<h4>Elemento A no Href</h4>
-								<ol>
-									<li><a name="test1" id="test1">element</a></li>
-									<li><a name="test2" id="test2" aria-label="test label">element with aria-label</a></li>
-									<li><a name="test3" id="test3" title="test description">element with title</a></li>
-									<li><a name="test4" id="test4" title="test label"></a> empty element with title</li>
-									<li><a name="test4" id="test4" aria-label="test label" title="test description">element with aria-label and title</a></li>
-								</ol>
-							</div>
-					    </div>
-					</div>
-				</div>
-			</section>
-			<section class="py-5">
-				<div class="container px-4 px-lg-5 mt-5">
-					<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-                      <div class="col mb-5">
-					    <div class="card h-100">
-						  <div class="card-body p-4">
-							<h4>Sugestão de anúncio</h4>
-								<ol>
-									<li>"element"</li>
-									<li>"test label"</li>
-									<li>"element with title, test description"</li>
-									<li>"test label"</li>
-									<li>"test label, test description"</li>
-								</ol>
-						  </div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="py-5">
-				<div class="container px-4 px-lg-5 mt-5">
-					<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-                      <div class="col mb-5">
-					    <div class="card h-100">
-						  <div class="card-body p-4">
-							<h4>Código</h4>
-							&lt;ol><br>
-								&lt;li>a name="test1" id="test1">element&lt;/a>&lt;/li><br>
-								&lt;li>a name="test2" id="test2" aria-label="test label">element with aria-label&lt;/a>&lt;/li><br>
-								&lt;li>a name="test3" id="test3" title="test description">element with title&lt;/a>&lt;/li><br>
-								&lt;li>a name="test4" id="test4" title="test label">&lt;/a> empty element with title&lt;/li><br>
-								&lt;li>a name="test4" id="test4" aria-label="test label" title="test description">element with aria-label and title&lt;/a>&lt;/li><br>
-							&lt;/ol>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-            <section class="py-5">
-                <div class="container px-4 px-lg-5 mt-5">
-                  <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-                    <div class="col mb-5">
-                      <div class="card h-100">
-                        <div class="card-body p-4">
-                          <h4>Referência</h4>
-					<a href="http://www.w3.org/TR/html/text-level-semantics.html#the-a-element" class="black-text" target="_blank">Página de apoio HTML5</a>
-						</div>
-					  </div>
-		  			</div>
+			  		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
+						<div class="col mb-5">
+							<div class="card h-100">
+					  			<div class="card-body p-4">
+									<h2>A no Href</h2>
+										<ol>
+											<li><a name="test1" id="test1">Elemento</a></li>
+											<li><a name="test2" id="test2" aria-label="test label">Elemento com Aria-Label</a></li>
+											<li><a name="test3" id="test3" title="test description">Elemento com Título</a></li>
+											<li><a name="test4" id="test4" title="test label">Elemento vazio com Título</a></li>
+											<li><a name="test5" id="test5" aria-label="test label" title="test description">Elemento com Aria-Label e Título</a></li>
+										</ol>
+										<br>
+									<h2>Sugestão de Enunciados</h2>
+										<ol>
+											<li>"Elemento"</li>
+											<li>"Rótulo de Teste"</li>
+											<li>"Elemento com Título e Descrição de Teste"</li>
+											<li>"Rótulo de Teste"</li>
+											<li>"Rótulo de Teste e Descrição de Teste"</li>
+										</ol>
+										<br>
+									<h2>Código</h2>
+										<p>
+											&lt;ol><br>
+												&lt;li>a name="test1" id="test1">Elemento&lt;/a>&lt;/li><br>
+												&lt;li>a name="test2" id="test2" aria-label="test label">Elemento com Aria-Labell&lt;/a>&lt;/li><br>
+												&lt;li>a name="test3" id="test3" title="test description">Elemento com Título&lt;/a>&lt;/li><br>
+												&lt;li>a name="test4" id="test4" title="test label">&lt;/a>Elemento vazio com Título&lt;/li><br>
+												&lt;li>a name="test5" id="test5" aria-label="test label" title="test description">Elemento com Aria-Label e Título&lt;/a>&lt;/li><br>
+											&lt;/ol><br>
+										</p>
+										<br>
+                          			<h2>Fonte de Referência</h2>
+										<a href="http://www.w3.org/TR/html/text-level-semantics.html#the-a-element" class="nav-link" target="_blank">Página com elemento A no HREF no HTML5</a>
+								</div>
+					  		</div>
+		  				</div>
 	  			</div>
-  			</section>
+			</section>
 				<footer class="py-5 bg-dark">
-					<img src="../assets/itau-logo.png" title="Logo Itaú" width:="50" height="50">
 					<div class="footer-copyright text-center">&copy; Desenvolvido por: Equipe de Acessibilidade</a> | Pagamentos Digitais PF ❤️
 					<p>Todos os direitos reservados Ⓡ</p>
+					<img src="../assets/itau-logo.png" title="Logo Itaú" width:="50" height="50">
 				</footer>
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>

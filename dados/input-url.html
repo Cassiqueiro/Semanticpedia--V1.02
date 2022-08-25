@@ -5,95 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="description" content="Repositório de Semânticas"/>
         <meta name="author" content="Equipe de Acessibilidade Itaú"/>
-        <title>Elemento de entrada do tipo URL</title>
+        <title>URL</title>
         <link rel="icon" type="favicon" href="../assets/favicon.png"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet"/>
     </head>
     <body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container px-4 px-lg-5">
-              <a class="navbar-brand">Acessibilidade Itaú</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                      <li class="nav-item"><a href="./ferramentas-apoio.html" class="nav-link" target="_blank">Ferramentas de apoio</a></li>
-                      <li class="nav-item"><a href="https://developer.android.com/guide/topics/ui/accessibility" class="nav-link" target="_blank">DEV Android</a></li>
-                      <li class="nav-item"><a href="https://developer.apple.com/documentation/accessibility" class="nav-link" target="_blank">DEV IOS</a></li>
-                      <li class="nav-item"><a href="https://www.w3.org/WAI/standards-guidelines/aria/" class="nav-link" target="_blank">DEV W3C</a></li>
-                      <li class="nav-item"><a href="https://github.com/Cassiqueiro/SemanticsHTML" class="nav-link" target="_blank">Repositório Git</a></li>
-                  </ul>
-              </div>
-          </div>
-		</nav>
-    <header class="bg-dark py-5">
-    	<div class="container px-4 px-lg-5 my-5">
-        	<div class="text-center text-white">
-            	<h1 class="display-4 fw-bolder">Elemento de Entrada do tipo URL</h1>
-            	<img src="../assets/logo-acessibilidade.png" title="Logo Acessibilidade" width:="50" height="120">
-            	<p class="lead fw-normal text-white-50 mb-0">Material de apoio para desenvolvimento de jornadas</p>
-           	</div>
-		</div>
-    </header>
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Elemento de Entrada com URL</h1>
+                        <a href="file:///C:/Users/photh/Documents/GitHub/Semanticpedia-V1.2.0/index.html">
+                        <img src="../assets/logo-acessibilidade.png" title="Logo Acessibilidade" width:="50" height="120">
+                        </a>
+                        <p class="lead fw-normal text-white-50 mb-0">Material de apoio para desenvolvimento de jornadas</p>
+                </div>
+            </div>
+        </header>
         <section class="py-5">
           	<div class="container px-4 px-lg-5 mt-5">
                	<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
                    	<div class="col mb-5">
                    		<div class="card h-100">
                        		<div class="card-body p-4">
-								<h4>Elemento de Entrada do tipo URL</h4>
+								<h2>Elemento de Entrada do tipo URL</h2>
 									<form>
 										<input type="url">
-											<h5>Com rótulo </h5>
+											<h3>Com rótulo </h3>
 												<p><label>Seu site <input type="url"></label></p>
-											<h5>Com rótulo + placeholder</h5>
+											<h3>Com rótulo + placeholder</h3>
 												<p><label>Seu site <input type="url" placeholder="http://"></label></p>
-											<h5>Com rótulo + placeholder + obrigatório</h5>
+											<h3>Com rótulo + placeholder + obrigatório</h3>
 												<p><label>Seu site <input type="url" placeholder="http://" required></label></p>
-											<h5>Com rótulo + placeholder + somente leitura</h5>
+											<h3>Com rótulo + placeholder + somente leitura</h3>
 												<p><label>Seu site <input type="url" placeholder="http://" readonly></label></p>
-											<h5>Com rótulo + placeholder + desativado</h5>
+											<h3>Com rótulo + placeholder + desativado</h3>
 												<p><label>seu site <input type="url" placeholder="http://" disabled></label></p>
 										<input type="submit">
 									</form>
-							</div>
-			  	  		</div>
-		  			</div>
-			</div>
-	  	</section>
-		<section class="py-5">
-			<div class="container px-4 px-lg-5 mt-5">
-				<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-					<div class="col mb-5">
-						<div class="card h-100">
-							<div class="card-body p-4">
-								<h4>Código</h4>
-								<p>
-									&lt;label>Seu site &lt;input type="url">&lt;/label>
-								</p>
-							</div>
-				  		</div>
-					</div>
-			</div>
-		</section>
-		<section class="py-5">
-			<div class="container px-4 px-lg-5 mt-5">
-				<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"></div>
-					<div class="col mb-5">
-						<div class="card h-100">
-							<div class="card-body p-4">
-								<h4>Referência</h4>
+								<br>
+								<h2>Código</h2>
+									&lt;label>Seu site &lt;input type="url">&lt;/label><br>
+								<br>
+								<h2>Fonte de Referência</h2>
 									<li class="nav-item"><a href="http://www.w3.org/TR/html/forms.html#elemento-de-entrada-tipo-url" class="nav-link" target="_blank">Elemento de Entrada do tipo URL no HTML5</a></li>
 							</div>
 						</div>
-			  		</div>
+					</div>
+				</div>
 			</div>
 		</section>
 			<footer class="py-5 bg-dark">
-				<img src="../assets/itau-logo.png" title="Logo Itaú" width:="50" height="50">
 				<div class="footer-copyright text-center">&copy; Desenvolvido por: Equipe de Acessibilidade</a> | Pagamentos Digitais PF ❤️
-				<p>Todos os direitos reservados Ⓡ</p>
+					<p>Todos os direitos reservados Ⓡ</p>
+				<img src="../assets/itau-logo.png" title="Logo Itaú" width:="50" height="50">
 			</footer>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
